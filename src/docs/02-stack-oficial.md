@@ -25,3 +25,6 @@ Tecnologias homologadas para contextos específicos, automações e cenários de
 
 ### 💾 Persistência de Dados
 * **Bancos de Dados:** O padrão oficial e homologado para armazenamento relacional e não-relacional está em fase de definição pela governança de arquitetura (avaliando *SQL Server, MySQL e PostgreSQL*). Novas definições serão integradas a este guideline via Architecture Decision Records (ADRs).
+
+### OBS:
+Para que seja utilizado uma stack fora as que estão nessa lista é necessário ser feito um levantamento/estudo sobre a linguagem justificando a escolha.
