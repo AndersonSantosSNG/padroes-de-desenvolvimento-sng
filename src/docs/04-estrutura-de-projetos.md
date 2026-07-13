@@ -15,26 +15,26 @@ Este documento define a organização mínima esperada para projetos de software
 
 ```text
 src/
-  Domain/
-  Application/
-  Infrastructure/
-  Presentation/
+  Models/
+  Views/
+  Controllers/
+  Services/
   Tests/
   Docs/
 ```
 
 ### 🧩 Responsabilidade de Cada Camada
 
-* **Domain:** entidades, value objects, regras de negócio centrais e interfaces de domínio.
-* **Application:** casos de uso, orquestração, regras de aplicação e fluxo de operações.
-* **Infrastructure:** integrações com banco de dados, filas, serviços externos, arquivos e frameworks técnicos.
-* **Presentation:** controllers, endpoints, interfaces de usuário e componentes de entrada/saída.
-* **Tests:** testes unitários, de integração e validações automatizadas.
-* **Docs:** documentação técnica, ADRs, diagramas e referências operacionais.
+- **Models:** Entidades, mapeamentos de banco de dados, objetos de domínio e regras de negócio centrais.
+- **Views:** Componentes de interface de usuário, páginas, DTOs e contratos de resposta/visualização de entrada e saída.
+- **Controllers:** Orquestração de rotas, validações iniciais de requisição, direcionamento de fluxos e retorno de dados.
+- **Services:** Casos de uso, centralização das regras de negócio complexas e integrações externas (banco de dados, APIs e serviços técnicos).
+- **Tests:** Testes unitários, de integração e validações automatizadas.
+- **Docs:** Documentação técnica, ADRs, diagramas e referências operacionais.
 
 ### 📌 Regras de Organização
 
-* Cada módulo deve ter responsabilidades bem delimitadas.
-* Arquivos e pastas devem seguir nomes consistentes e descritivos.
-* Evitar acúmulo de lógica em arquivos genéricos ou utilitários sem contexto.
-* Manter a estrutura alinhada com a arquitetura adotada pelo projeto.
+- Cada módulo deve ter responsabilidades bem delimitadas.
+- Arquivos e pastas devem seguir nomes consistentes e descritivos.
+- Evitar acúmulo de lógica em arquivos genéricos ou utilitários sem contexto.
+- Manter a estrutura alinhada com a arquitetura adotada pelo projeto.

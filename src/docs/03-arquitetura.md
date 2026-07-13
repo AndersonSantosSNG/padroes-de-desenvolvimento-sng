@@ -17,7 +17,6 @@ Para projetos novos, a estrutura arquitetural deve seguir os seguintes princípi
 
 * **Arquitetura baseada em camadas:** separação clara entre Domain, Application, Infrastructure e Presentation.
 * **Padrão MVCS para APIs novas:** organização do fluxo em Model, View, Controller e Service/Use Case, conforme o contexto.
-* **DDD para regras de negócio complexas:** aplicar Domain-Driven Design sempre que o domínio exigir alta complexidade e evolução contínua.
 * **SOLID obrigatório:** cada componente deve seguir os princípios de responsabilidade única, aberto/fechado, substituição de Liskov, segregação de interfaces e inversão de dependência.
 * **Baixo acoplamento e alta coesão:** evitar dependências desnecessárias entre módulos.
 
